@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Log</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            height: 75%;
+            width: 55%;
+        }
+
+        .item {
+            background-color: white;
+            height: auto;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid grey;
+        }
+
+        img {
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        p {
+            margin-left: 50px;
+        }
+
+        @media (max-width:680px) {
+            .main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy made an update to a post.</p>
+        <p>12:08 PM May 27, 2023</p>
+       </div>
+       <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy logged into her account.</p>
+        <p>3:34 PM May 28, 2023</p>
+      </div>
+      <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy logged into her account.</p>
+        <p>9:38 AM May 29, 2023</p>
+      </div>
+      <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy uploaded an image</p>
+        <p>4:57 PM May 29, 2023</p>
+       </div>
+       <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy logged into her account.</p>
+        <p>7:30 PM May 30, 2023</p>
+      </div>
+      <div  class="item">
+        <img src="./template_3.jpg" alt="profile">
+        <p>Mandy made a post</p>
+        <p>9:38 AM May 30, 2023</p>
+    </div>
+    </div>
+</body>
+</html>
